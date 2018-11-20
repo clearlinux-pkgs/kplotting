@@ -6,7 +6,7 @@
 #
 Name     : kplotting
 Version  : 5.52.0
-Release  : 7
+Release  : 8
 URL      : https://download.kde.org/stable/frameworks/5.52/kplotting-5.52.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.52/kplotting-5.52.0.tar.xz
 Source99 : https://download.kde.org/stable/frameworks/5.52/kplotting-5.52.0.tar.xz.sig
@@ -28,14 +28,6 @@ for easy data-plotting. The idea behind KPlotWidget is that you only have
 to specify information in "data units"; i.e., the natural units of the
 data being plotted.  KPlotWidget automatically converts everything
 to screen pixel units.
-
-%package abi
-Summary: abi components for the kplotting package.
-Group: Default
-
-%description abi
-abi components for the kplotting package.
-
 
 %package dev
 Summary: dev components for the kplotting package.
@@ -72,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541871825
+export SOURCE_DATE_EPOCH=1542744180
 mkdir -p clr-build
 pushd clr-build
 %cmake ..
@@ -80,7 +72,7 @@ make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1541871825
+export SOURCE_DATE_EPOCH=1542744180
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kplotting
 cp COPYING.LIB %{buildroot}/usr/share/package-licenses/kplotting/COPYING.LIB
@@ -90,10 +82,6 @@ popd
 
 %files
 %defattr(-,root,root,-)
-
-%files abi
-%defattr(-,root,root,-)
-/usr/share/abi/libKF5Plotting.so.5.52.0.abi
 
 %files dev
 %defattr(-,root,root,-)
