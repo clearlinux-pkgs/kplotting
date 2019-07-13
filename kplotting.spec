@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kplotting
-Version  : 5.59.0
-Release  : 17
-URL      : https://download.kde.org/stable/frameworks/5.59/kplotting-5.59.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.59/kplotting-5.59.0.tar.xz
-Source99 : https://download.kde.org/stable/frameworks/5.59/kplotting-5.59.0.tar.xz.sig
+Version  : 5.60.0
+Release  : 18
+URL      : https://download.kde.org/stable/frameworks/5.60/kplotting-5.60.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.60/kplotting-5.60.0.tar.xz
+Source99 : https://download.kde.org/stable/frameworks/5.60/kplotting-5.60.0.tar.xz.sig
 Summary  : Lightweight plotting framework
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -59,16 +59,17 @@ license components for the kplotting package.
 
 
 %prep
-%setup -q -n kplotting-5.59.0
+%setup -q -n kplotting-5.60.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1560018883
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1563041988
 mkdir -p clr-build
 pushd clr-build
+export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
@@ -77,11 +78,11 @@ export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
 export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %cmake ..
-make  %{?_smp_mflags}
+make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1560018883
+export SOURCE_DATE_EPOCH=1563041988
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kplotting
 cp COPYING.LIB %{buildroot}/usr/share/package-licenses/kplotting/COPYING.LIB
@@ -114,7 +115,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Plotting.so.5
-/usr/lib64/libKF5Plotting.so.5.59.0
+/usr/lib64/libKF5Plotting.so.5.60.0
 
 %files license
 %defattr(0644,root,root,0755)
