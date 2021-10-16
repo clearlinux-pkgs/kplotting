@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kplotting
-Version  : 5.85.0
-Release  : 41
-URL      : https://download.kde.org/stable/frameworks/5.85/kplotting-5.85.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.85/kplotting-5.85.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.85/kplotting-5.85.0.tar.xz.sig
+Version  : 5.87.0
+Release  : 42
+URL      : https://download.kde.org/stable/frameworks/5.87/kplotting-5.87.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.87/kplotting-5.87.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.87/kplotting-5.87.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0 LGPL-2.0
@@ -60,15 +60,15 @@ license components for the kplotting package.
 
 
 %prep
-%setup -q -n kplotting-5.85.0
-cd %{_builddir}/kplotting-5.85.0
+%setup -q -n kplotting-5.87.0
+cd %{_builddir}/kplotting-5.87.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1630893345
+export SOURCE_DATE_EPOCH=1634410779
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -84,11 +84,11 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1630893345
+export SOURCE_DATE_EPOCH=1634410779
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kplotting
-cp %{_builddir}/kplotting-5.85.0/LICENSES/GPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kplotting/e712eadfab0d2357c0f50f599ef35ee0d87534cb
-cp %{_builddir}/kplotting-5.85.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kplotting/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kplotting-5.87.0/LICENSES/GPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kplotting/e712eadfab0d2357c0f50f599ef35ee0d87534cb
+cp %{_builddir}/kplotting-5.87.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kplotting/20079e8f79713dce80ab09774505773c926afa2a
 pushd clr-build
 %make_install
 popd
@@ -118,7 +118,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5Plotting.so.5
-/usr/lib64/libKF5Plotting.so.5.85.0
+/usr/lib64/libKF5Plotting.so.5.87.0
 /usr/lib64/qt5/plugins/designer/kplotting5widgets.so
 
 %files license
