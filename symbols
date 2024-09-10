@@ -1,126 +1,126 @@
-libKF6Plotting.so.6:_ZN10KPlotPoint11setBarWidthEd
-libKF6Plotting.so.6:_ZN10KPlotPoint11setPositionERK7QPointF
-libKF6Plotting.so.6:_ZN10KPlotPoint4setXEd
-libKF6Plotting.so.6:_ZN10KPlotPoint4setYEd
-libKF6Plotting.so.6:_ZN10KPlotPoint8setLabelERK7QString
-libKF6Plotting.so.6:_ZN10KPlotPointC1ERK7QPointFRK7QStringd
-libKF6Plotting.so.6:_ZN10KPlotPointC1EddRK7QStringd
-libKF6Plotting.so.6:_ZN10KPlotPointC1Ev
-libKF6Plotting.so.6:_ZN10KPlotPointC2ERK7QPointFRK7QStringd
-libKF6Plotting.so.6:_ZN10KPlotPointC2EddRK7QStringd
-libKF6Plotting.so.6:_ZN10KPlotPointC2Ev
-libKF6Plotting.so.6:_ZN10KPlotPointD1Ev
-libKF6Plotting.so.6:_ZN10KPlotPointD2Ev
-libKF6Plotting.so.6:_ZN11KPlotObject10setLinePenERK4QPen
-libKF6Plotting.so.6:_ZN11KPlotObject11clearPointsEv
-libKF6Plotting.so.6:_ZN11KPlotObject11removePointEi
-libKF6Plotting.so.6:_ZN11KPlotObject11setBarBrushERK6QBrush
-libKF6Plotting.so.6:_ZN11KPlotObject11setLabelPenERK4QPen
-libKF6Plotting.so.6:_ZN11KPlotObject11setShowBarsEb
-libKF6Plotting.so.6:_ZN11KPlotObject12setShowLinesEb
-libKF6Plotting.so.6:_ZN11KPlotObject13setPointStyleENS_10PointStyleE
-libKF6Plotting.so.6:_ZN11KPlotObject13setShowPointsEb
-libKF6Plotting.so.6:_ZN11KPlotObject4drawEP8QPainterP11KPlotWidget
-libKF6Plotting.so.6:_ZN11KPlotObject6setPenERK4QPen
-libKF6Plotting.so.6:_ZN11KPlotObject7setSizeEd
-libKF6Plotting.so.6:_ZN11KPlotObject8addPointEP10KPlotPoint
-libKF6Plotting.so.6:_ZN11KPlotObject8addPointERK7QPointFRK7QStringd
-libKF6Plotting.so.6:_ZN11KPlotObject8addPointEddRK7QStringd
-libKF6Plotting.so.6:_ZN11KPlotObject8setBrushERK6QBrush
-libKF6Plotting.so.6:_ZN11KPlotObject9setBarPenERK4QPen
-libKF6Plotting.so.6:_ZN11KPlotObjectC1ERK6QColorNS_8PlotTypeEdNS_10PointStyleE
-libKF6Plotting.so.6:_ZN11KPlotObjectC2ERK6QColorNS_8PlotTypeEdNS_10PointStyleE
-libKF6Plotting.so.6:_ZN11KPlotObjectD1Ev
-libKF6Plotting.so.6:_ZN11KPlotObjectD2Ev
-libKF6Plotting.so.6:_ZN11KPlotWidget10paintEventEP11QPaintEvent
-libKF6Plotting.so.6:_ZN11KPlotWidget10placeLabelEP8QPainterP10KPlotPoint
-libKF6Plotting.so.6:_ZN11KPlotWidget10setPixRectEv
-libKF6Plotting.so.6:_ZN11KPlotWidget11qt_metacallEN11QMetaObject4CallEiPPv
-libKF6Plotting.so.6:_ZN11KPlotWidget11qt_metacastEPKc
-libKF6Plotting.so.6:_ZN11KPlotWidget11resizeEventEP12QResizeEvent
-libKF6Plotting.so.6:_ZN11KPlotWidget11setShowGridEb
-libKF6Plotting.so.6:_ZN11KPlotWidget12setGridColorERK6QColor
-libKF6Plotting.so.6:_ZN11KPlotWidget13addPlotObjectEP11KPlotObject
-libKF6Plotting.so.6:_ZN11KPlotWidget13maskAlongLineERK7QPointFS2_f
-libKF6Plotting.so.6:_ZN11KPlotWidget13resetPlotMaskEv
-libKF6Plotting.so.6:_ZN11KPlotWidget13setTopPaddingEi
-libKF6Plotting.so.6:_ZN11KPlotWidget14addPlotObjectsERK5QListIP11KPlotObjectE
-libKF6Plotting.so.6:_ZN11KPlotWidget14setLeftPaddingEi
-libKF6Plotting.so.6:_ZN11KPlotWidget15setAntialiasingEb
-libKF6Plotting.so.6:_ZN11KPlotWidget15setRightPaddingEi
-libKF6Plotting.so.6:_ZN11KPlotWidget16setBottomPaddingEi
-libKF6Plotting.so.6:_ZN11KPlotWidget17replacePlotObjectEiP11KPlotObject
-libKF6Plotting.so.6:_ZN11KPlotWidget18setBackgroundColorERK6QColor
-libKF6Plotting.so.6:_ZN11KPlotWidget18setDefaultPaddingsEv
-libKF6Plotting.so.6:_ZN11KPlotWidget18setForegroundColorERK6QColor
-libKF6Plotting.so.6:_ZN11KPlotWidget18setSecondaryLimitsEdddd
-libKF6Plotting.so.6:_ZN11KPlotWidget20clearSecondaryLimitsEv
-libKF6Plotting.so.6:_ZN11KPlotWidget20removeAllPlotObjectsEv
-libKF6Plotting.so.6:_ZN11KPlotWidget21setObjectToolTipShownEb
-libKF6Plotting.so.6:_ZN11KPlotWidget24setAutoDeletePlotObjectsEb
-libKF6Plotting.so.6:_ZN11KPlotWidget4axisENS_4AxisE
-libKF6Plotting.so.6:_ZN11KPlotWidget5eventEP6QEvent
-libKF6Plotting.so.6:_ZN11KPlotWidget8drawAxesEP8QPainter
-libKF6Plotting.so.6:_ZN11KPlotWidget8maskRectERK6QRectFf
-libKF6Plotting.so.6:_ZN11KPlotWidget9resetPlotEv
-libKF6Plotting.so.6:_ZN11KPlotWidget9setLimitsEdddd
-libKF6Plotting.so.6:_ZN11KPlotWidgetC1EP7QWidget
-libKF6Plotting.so.6:_ZN11KPlotWidgetC2EP7QWidget
-libKF6Plotting.so.6:_ZN11KPlotWidgetD0Ev
-libKF6Plotting.so.6:_ZN11KPlotWidgetD1Ev
-libKF6Plotting.so.6:_ZN11KPlotWidgetD2Ev
-libKF6Plotting.so.6:_ZN9KPlotAxis10setVisibleEb
-libKF6Plotting.so.6:_ZN9KPlotAxis12setTickMarksEdd
-libKF6Plotting.so.6:_ZN9KPlotAxis18setTickLabelFormatEcii
-libKF6Plotting.so.6:_ZN9KPlotAxis18setTickLabelsShownEb
-libKF6Plotting.so.6:_ZN9KPlotAxis8setLabelERK7QString
-libKF6Plotting.so.6:_ZN9KPlotAxisC1ERK7QString
-libKF6Plotting.so.6:_ZN9KPlotAxisC2ERK7QString
-libKF6Plotting.so.6:_ZN9KPlotAxisD1Ev
-libKF6Plotting.so.6:_ZN9KPlotAxisD2Ev
-libKF6Plotting.so.6:_ZNK10KPlotPoint1xEv
-libKF6Plotting.so.6:_ZNK10KPlotPoint1yEv
-libKF6Plotting.so.6:_ZNK10KPlotPoint5labelEv
-libKF6Plotting.so.6:_ZNK10KPlotPoint8barWidthEv
-libKF6Plotting.so.6:_ZNK10KPlotPoint8positionEv
-libKF6Plotting.so.6:_ZNK11KPlotObject10pointStyleEv
-libKF6Plotting.so.6:_ZNK11KPlotObject3penEv
-libKF6Plotting.so.6:_ZNK11KPlotObject4sizeEv
-libKF6Plotting.so.6:_ZNK11KPlotObject5brushEv
-libKF6Plotting.so.6:_ZNK11KPlotObject6barPenEv
-libKF6Plotting.so.6:_ZNK11KPlotObject6pointsEv
-libKF6Plotting.so.6:_ZNK11KPlotObject7linePenEv
-libKF6Plotting.so.6:_ZNK11KPlotObject8barBrushEv
-libKF6Plotting.so.6:_ZNK11KPlotObject8labelPenEv
-libKF6Plotting.so.6:_ZNK11KPlotObject9plotTypesEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget10metaObjectEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget10topPaddingEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget11isGridShownEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget11leftPaddingEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget11mapToWidgetERK7QPointF
-libKF6Plotting.so.6:_ZNK11KPlotWidget11plotObjectsEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget12antialiasingEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget12rightPaddingEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget13bottomPaddingEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget15backgroundColorEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget15foregroundColorEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget15minimumSizeHintEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget16pointsUnderPointERK6QPoint
-libKF6Plotting.so.6:_ZNK11KPlotWidget17secondaryDataRectEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget20isObjectToolTipShownEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget4axisENS_4AxisE
-libKF6Plotting.so.6:_ZNK11KPlotWidget7pixRectEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget8dataRectEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget8sizeHintEv
-libKF6Plotting.so.6:_ZNK11KPlotWidget9gridColorEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis14majorTickMarksEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis14minorTickMarksEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis14tickLabelWidthEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis15tickLabelFormatEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis18areTickLabelsShownEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis18tickLabelPrecisionEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis5labelEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis9isVisibleEv
-libKF6Plotting.so.6:_ZNK9KPlotAxis9tickLabelEd
-libKF6Plotting.so.6:_ZThn16_N11KPlotWidgetD0Ev
-libKF6Plotting.so.6:_ZThn16_N11KPlotWidgetD1Ev
+libKF6Plotting.so.6:KPlotPoint::setBarWidth(double)
+libKF6Plotting.so.6:KPlotPoint::setPosition(QPointF const&)
+libKF6Plotting.so.6:KPlotPoint::setX(double)
+libKF6Plotting.so.6:KPlotPoint::setY(double)
+libKF6Plotting.so.6:KPlotPoint::setLabel(QString const&)
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint(QPointF const&, QString const&, double)
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint(double, double, QString const&, double)
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint()
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint(QPointF const&, QString const&, double)
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint(double, double, QString const&, double)
+libKF6Plotting.so.6:KPlotPoint::KPlotPoint()
+libKF6Plotting.so.6:KPlotPoint::~KPlotPoint()
+libKF6Plotting.so.6:KPlotPoint::~KPlotPoint()
+libKF6Plotting.so.6:KPlotObject::setLinePen(QPen const&)
+libKF6Plotting.so.6:KPlotObject::clearPoints()
+libKF6Plotting.so.6:KPlotObject::removePoint(int)
+libKF6Plotting.so.6:KPlotObject::setBarBrush(QBrush const&)
+libKF6Plotting.so.6:KPlotObject::setLabelPen(QPen const&)
+libKF6Plotting.so.6:KPlotObject::setShowBars(bool)
+libKF6Plotting.so.6:KPlotObject::setShowLines(bool)
+libKF6Plotting.so.6:KPlotObject::setPointStyle(KPlotObject::PointStyle)
+libKF6Plotting.so.6:KPlotObject::setShowPoints(bool)
+libKF6Plotting.so.6:KPlotObject::draw(QPainter*, KPlotWidget*)
+libKF6Plotting.so.6:KPlotObject::setPen(QPen const&)
+libKF6Plotting.so.6:KPlotObject::setSize(double)
+libKF6Plotting.so.6:KPlotObject::addPoint(KPlotPoint*)
+libKF6Plotting.so.6:KPlotObject::addPoint(QPointF const&, QString const&, double)
+libKF6Plotting.so.6:KPlotObject::addPoint(double, double, QString const&, double)
+libKF6Plotting.so.6:KPlotObject::setBrush(QBrush const&)
+libKF6Plotting.so.6:KPlotObject::setBarPen(QPen const&)
+libKF6Plotting.so.6:KPlotObject::KPlotObject(QColor const&, KPlotObject::PlotType, double, KPlotObject::PointStyle)
+libKF6Plotting.so.6:KPlotObject::KPlotObject(QColor const&, KPlotObject::PlotType, double, KPlotObject::PointStyle)
+libKF6Plotting.so.6:KPlotObject::~KPlotObject()
+libKF6Plotting.so.6:KPlotObject::~KPlotObject()
+libKF6Plotting.so.6:KPlotWidget::paintEvent(QPaintEvent*)
+libKF6Plotting.so.6:KPlotWidget::placeLabel(QPainter*, KPlotPoint*)
+libKF6Plotting.so.6:KPlotWidget::setPixRect()
+libKF6Plotting.so.6:KPlotWidget::qt_metacall(QMetaObject::Call, int, void**)
+libKF6Plotting.so.6:KPlotWidget::qt_metacast(char const*)
+libKF6Plotting.so.6:KPlotWidget::resizeEvent(QResizeEvent*)
+libKF6Plotting.so.6:KPlotWidget::setShowGrid(bool)
+libKF6Plotting.so.6:KPlotWidget::setGridColor(QColor const&)
+libKF6Plotting.so.6:KPlotWidget::addPlotObject(KPlotObject*)
+libKF6Plotting.so.6:KPlotWidget::maskAlongLine(QPointF const&, QPointF const&, float)
+libKF6Plotting.so.6:KPlotWidget::resetPlotMask()
+libKF6Plotting.so.6:KPlotWidget::setTopPadding(int)
+libKF6Plotting.so.6:KPlotWidget::addPlotObjects(QList<KPlotObject*> const&)
+libKF6Plotting.so.6:KPlotWidget::setLeftPadding(int)
+libKF6Plotting.so.6:KPlotWidget::setAntialiasing(bool)
+libKF6Plotting.so.6:KPlotWidget::setRightPadding(int)
+libKF6Plotting.so.6:KPlotWidget::setBottomPadding(int)
+libKF6Plotting.so.6:KPlotWidget::replacePlotObject(int, KPlotObject*)
+libKF6Plotting.so.6:KPlotWidget::setBackgroundColor(QColor const&)
+libKF6Plotting.so.6:KPlotWidget::setDefaultPaddings()
+libKF6Plotting.so.6:KPlotWidget::setForegroundColor(QColor const&)
+libKF6Plotting.so.6:KPlotWidget::setSecondaryLimits(double, double, double, double)
+libKF6Plotting.so.6:KPlotWidget::clearSecondaryLimits()
+libKF6Plotting.so.6:KPlotWidget::removeAllPlotObjects()
+libKF6Plotting.so.6:KPlotWidget::setObjectToolTipShown(bool)
+libKF6Plotting.so.6:KPlotWidget::setAutoDeletePlotObjects(bool)
+libKF6Plotting.so.6:KPlotWidget::axis(KPlotWidget::Axis)
+libKF6Plotting.so.6:KPlotWidget::event(QEvent*)
+libKF6Plotting.so.6:KPlotWidget::drawAxes(QPainter*)
+libKF6Plotting.so.6:KPlotWidget::maskRect(QRectF const&, float)
+libKF6Plotting.so.6:KPlotWidget::resetPlot()
+libKF6Plotting.so.6:KPlotWidget::setLimits(double, double, double, double)
+libKF6Plotting.so.6:KPlotWidget::KPlotWidget(QWidget*)
+libKF6Plotting.so.6:KPlotWidget::KPlotWidget(QWidget*)
+libKF6Plotting.so.6:KPlotWidget::~KPlotWidget()
+libKF6Plotting.so.6:KPlotWidget::~KPlotWidget()
+libKF6Plotting.so.6:KPlotWidget::~KPlotWidget()
+libKF6Plotting.so.6:KPlotAxis::setVisible(bool)
+libKF6Plotting.so.6:KPlotAxis::setTickMarks(double, double)
+libKF6Plotting.so.6:KPlotAxis::setTickLabelFormat(char, int, int)
+libKF6Plotting.so.6:KPlotAxis::setTickLabelsShown(bool)
+libKF6Plotting.so.6:KPlotAxis::setLabel(QString const&)
+libKF6Plotting.so.6:KPlotAxis::KPlotAxis(QString const&)
+libKF6Plotting.so.6:KPlotAxis::KPlotAxis(QString const&)
+libKF6Plotting.so.6:KPlotAxis::~KPlotAxis()
+libKF6Plotting.so.6:KPlotAxis::~KPlotAxis()
+libKF6Plotting.so.6:KPlotPoint::x() const
+libKF6Plotting.so.6:KPlotPoint::y() const
+libKF6Plotting.so.6:KPlotPoint::label() const
+libKF6Plotting.so.6:KPlotPoint::barWidth() const
+libKF6Plotting.so.6:KPlotPoint::position() const
+libKF6Plotting.so.6:KPlotObject::pointStyle() const
+libKF6Plotting.so.6:KPlotObject::pen() const
+libKF6Plotting.so.6:KPlotObject::size() const
+libKF6Plotting.so.6:KPlotObject::brush() const
+libKF6Plotting.so.6:KPlotObject::barPen() const
+libKF6Plotting.so.6:KPlotObject::points() const
+libKF6Plotting.so.6:KPlotObject::linePen() const
+libKF6Plotting.so.6:KPlotObject::barBrush() const
+libKF6Plotting.so.6:KPlotObject::labelPen() const
+libKF6Plotting.so.6:KPlotObject::plotTypes() const
+libKF6Plotting.so.6:KPlotWidget::metaObject() const
+libKF6Plotting.so.6:KPlotWidget::topPadding() const
+libKF6Plotting.so.6:KPlotWidget::isGridShown() const
+libKF6Plotting.so.6:KPlotWidget::leftPadding() const
+libKF6Plotting.so.6:KPlotWidget::mapToWidget(QPointF const&) const
+libKF6Plotting.so.6:KPlotWidget::plotObjects() const
+libKF6Plotting.so.6:KPlotWidget::antialiasing() const
+libKF6Plotting.so.6:KPlotWidget::rightPadding() const
+libKF6Plotting.so.6:KPlotWidget::bottomPadding() const
+libKF6Plotting.so.6:KPlotWidget::backgroundColor() const
+libKF6Plotting.so.6:KPlotWidget::foregroundColor() const
+libKF6Plotting.so.6:KPlotWidget::minimumSizeHint() const
+libKF6Plotting.so.6:KPlotWidget::pointsUnderPoint(QPoint const&) const
+libKF6Plotting.so.6:KPlotWidget::secondaryDataRect() const
+libKF6Plotting.so.6:KPlotWidget::isObjectToolTipShown() const
+libKF6Plotting.so.6:KPlotWidget::axis(KPlotWidget::Axis) const
+libKF6Plotting.so.6:KPlotWidget::pixRect() const
+libKF6Plotting.so.6:KPlotWidget::dataRect() const
+libKF6Plotting.so.6:KPlotWidget::sizeHint() const
+libKF6Plotting.so.6:KPlotWidget::gridColor() const
+libKF6Plotting.so.6:KPlotAxis::majorTickMarks() const
+libKF6Plotting.so.6:KPlotAxis::minorTickMarks() const
+libKF6Plotting.so.6:KPlotAxis::tickLabelWidth() const
+libKF6Plotting.so.6:KPlotAxis::tickLabelFormat() const
+libKF6Plotting.so.6:KPlotAxis::areTickLabelsShown() const
+libKF6Plotting.so.6:KPlotAxis::tickLabelPrecision() const
+libKF6Plotting.so.6:KPlotAxis::label() const
+libKF6Plotting.so.6:KPlotAxis::isVisible() const
+libKF6Plotting.so.6:KPlotAxis::tickLabel(double) const
+libKF6Plotting.so.6:non-virtual thunk to KPlotWidget::~KPlotWidget()
+libKF6Plotting.so.6:non-virtual thunk to KPlotWidget::~KPlotWidget()
